@@ -6,6 +6,15 @@ const infuraProjectID = fs.readFileSync(".infura").toString().trim();
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   networks: {
+    holesky: {
+      url: `https://ethereum-holesky.publicnode.com`,
+      accounts: {
+        mnemonic,
+        path: "m/44'/60'/0'/0",
+        initialIndex: 0,
+        count: 10,
+      },
+    },
     goerli: {
       url: "https://goerli.infura.io/v3/" + infuraProjectID,
       accounts: {
