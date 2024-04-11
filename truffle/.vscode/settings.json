@@ -1,0 +1,10 @@
+{
+ "editor.formatOnSave": true,
+ "editor.defaultFormatter": "tintinweb.solidity-visual-auditor",
+ "editor.formatOnSaveMode": "modificationsIfAvailable",
+ "cSpell.words": [
+  "constract",
+  "Spacebear"
+ ],
+ "solidity.compileUsingRemoteVersion": "v0.8.25+commit.b61c2a91"
+}
